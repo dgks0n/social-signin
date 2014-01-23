@@ -23,28 +23,28 @@ https://www.addthis.com/secure/ssi_callback?isNewGen=true
 
 2. Get the code
 
-&lt;div class="addthis_toolbox"&gt;
-&lt;a class="addthis_login_facebook"&gt;&lt;/a&gt;
-&lt;a class="addthis_login_google"&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;script&gt;
-var addthis_config = {
-        login:{
-                services:{
-                        facebook:{
-                                id:'xxx'
-                        },
-                        google:{
-                                id:'xxx'
-                        }
-                },
-                callback:function(user){
-                        /* Output user properties -- in your real app, you'd get rid of these*/
-                        console.log(user.addthis_signature);
-                        console.log(user.thumbnailURL);
-                        console.log(user.service);
-                }
-        }
-};
-&lt;/script&gt;
-&lt;script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"&gt;&lt;/script&gt;
+&lt;div class="addthis_toolbox"&gt;\n
+&lt;a class="addthis_login_facebook"&gt;&lt;/a&gt;\n
+&lt;a class="addthis_login_google"&gt;&lt;/a&gt;\n
+&lt;/div&gt;\n
+&lt;script&gt;\n
+var addthis_config = {\n
+        login:{\n
+                services:{\n
+                        facebook:{\n
+                                id:'xxx'\n
+                        },\n
+                        google:{\n
+                                id:'xxx'\n
+                        }\n
+                },\n
+                callback:function(user){\n
+                        /* Output user properties -- in your real app, you'd get rid of these*/\n
+                        console.log(user.addthis_signature);\n
+                        console.log(user.thumbnailURL);\n
+                        console.log(user.service);\n
+                }\n
+        }\n
+};\n
+&lt;/script&gt;\n
+&lt;script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"&gt;&lt;/script&gt;\n
