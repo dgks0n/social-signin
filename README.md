@@ -23,11 +23,11 @@ https://www.addthis.com/secure/ssi_callback?isNewGen=true
 
 2. Get the code
 
-&gt;div class="addthis_toolbox">
-<a class="addthis_login_facebook"></a>
-<a class="addthis_login_google"></a>
-</div>
-<script>
+&lt;div class="addthis_toolbox"&gt;
+&lt;a class="addthis_login_facebook"&gt;&lt;/a&gt;
+&lt;a class="addthis_login_google"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;script&gt;
 var addthis_config = {
         login:{
                 services:{
@@ -46,5 +46,5 @@ var addthis_config = {
                 }
         }
 };
-</script>
-<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"></script>
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"&gt;&lt;/script&gt;
