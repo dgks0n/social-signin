@@ -23,7 +23,7 @@ https://www.addthis.com/secure/ssi_callback?isNewGen=true
 
 2. Get the code
 
-<div class="addthis_toolbox">
+&gt;div class="addthis_toolbox">
 <a class="addthis_login_facebook"></a>
 <a class="addthis_login_google"></a>
 </div>
