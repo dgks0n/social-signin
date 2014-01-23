@@ -23,28 +23,28 @@ https://www.addthis.com/secure/ssi_callback?isNewGen=true
 
 2. Get the code
 
-&lt;div class="addthis_toolbox"&gt;\n
-&lt;a class="addthis_login_facebook"&gt;&lt;/a&gt;\n
-&lt;a class="addthis_login_google"&gt;&lt;/a&gt;\n
-&lt;/div&gt;\n
-&lt;script&gt;\n
-var addthis_config = {\n
-        login:{\n
-                services:{\n
-                        facebook:{\n
-                                id:'xxx'\n
-                        },\n
-                        google:{\n
-                                id:'xxx'\n
-                        }\n
-                },\n
-                callback:function(user){\n
-                        /* Output user properties -- in your real app, you'd get rid of these*/\n
-                        console.log(user.addthis_signature);\n
-                        console.log(user.thumbnailURL);\n
-                        console.log(user.service);\n
-                }\n
-        }\n
-};\n
-&lt;/script&gt;\n
-&lt;script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"&gt;&lt;/script&gt;\n
+&lt;div class="addthis_toolbox"&gt<br />
+&lt;a class="addthis_login_facebook"&gt;&lt;/a&gt;<br />
+&lt;a class="addthis_login_google"&gt;&lt;/a&gt;<br />
+&lt;/div&gt;<br />
+&lt;script&gt;<br />
+var addthis_config = {<br />
+        login:{<br />
+                services:{<br />
+                        facebook:{<br />
+                                id:'xxx'<br />
+                        },<br />
+                        google:{<br />
+                                id:'xxx'<br />
+                        }<br />
+                },<br />
+                callback:function(user){<br />
+                        /* Output user properties -- in your real app, you'd get rid of these*/<br />
+                        console.log(user.addthis_signature);<br />
+                        console.log(user.thumbnailURL);<br />
+                        console.log(user.service);<br />
+                }<br />
+        }<br />
+};<br />
+&lt;/script&gt;<br />
+&lt;script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e13a186a2ea3c3"&gt;&lt;/script&gt;<br />
